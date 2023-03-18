@@ -47,17 +47,17 @@ const server: http.Server = http.createServer(app);
 
 
 server.listen(port, () => {
-    try {
-        mongoose.connect(mongoDB).then(mongoConnection => {
-            console.log("Succesfully connected to the data base", routes)
-        })
-        console.log(runningMessage);
-        routes.forEach((route: CommonRoutesConfig) => {
+    // try {
+    //     mongoose.connect(mongoDB).then(mongoConnection => {
+    //         console.log("Succesfully connected to the data base", routes)
+    //     })
+    //     console.log(runningMessage);
+    //     routes.forEach((route: CommonRoutesConfig) => {
 
-        });
-    } catch (error) {
+    //     });
+    // } catch (error) {
 
-    }
+    // }
     // our only exception to avoiding console.log(), because we
     // always want to know when the server is done starting up
 
