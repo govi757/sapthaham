@@ -14,7 +14,7 @@ import { WorkRoutes } from './routes/work/works.routes.config';
 
 const app: express.Application = express();
 
-const port = 3000;
+const port = 80;
 const routes: Array<CommonRoutesConfig> = [];
 const debugLog: debug.IDebugger = debug('app');
 app.use((err: any, req: express.Request, res: express.Response, next: any) => {
@@ -36,10 +36,10 @@ mongoose.set('strictQuery', false);
 
 const runningMessage = `Server running ats http://localhost:${port}`;
 
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'client-build')));
 
 app.get('*', function (req, res) {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+    res.sendFile(path.join(__dirname, 'client-build', 'index.html'));
 });
 
 
