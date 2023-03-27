@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.6617057f.css",
-    "main.js": "/static/js/main.ccdef65f.js",
+    "main.js": "/static/js/main.483600cb.js",
     "static/js/787.2a83ac7a.chunk.js": "/static/js/787.2a83ac7a.chunk.js",
+    "static/media/1.jpeg": "/static/media/1.d507dbf6ee7ff7595908.jpeg",
+    "static/media/3.jpeg": "/static/media/3.b1e4df3d97fae2724147.jpeg",
+    "static/media/2.jpeg": "/static/media/2.9da14343fca74fffa4c9.jpeg",
     "static/media/bappu-sapthaham.jpeg": "/static/media/bappu-sapthaham.73d047dd7365e8035a92.jpeg",
     "static/media/sapthaham1.jpeg": "/static/media/sapthaham1.ea22fa7f11421440305c.jpeg",
     "static/media/bappuSingle.jpeg": "/static/media/bappuSingle.1ceb3d75c24177bf73be.jpeg",
     "static/media/vasuvallyachan.jpeg": "/static/media/vasuvallyachan.ed2bbfac4735d6982439.jpeg",
     "index.html": "/index.html",
     "main.6617057f.css.map": "/static/css/main.6617057f.css.map",
-    "main.ccdef65f.js.map": "/static/js/main.ccdef65f.js.map",
+    "main.483600cb.js.map": "/static/js/main.483600cb.js.map",
     "787.2a83ac7a.chunk.js.map": "/static/js/787.2a83ac7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6617057f.css",
-    "static/js/main.ccdef65f.js"
+    "static/js/main.483600cb.js"
   ]
 }
